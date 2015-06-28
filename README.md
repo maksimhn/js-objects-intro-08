@@ -35,6 +35,12 @@ Break into pairs; as a group, pick one of the following examples, and individual
 
 - An ecommerce platform that allows users to purchase products and pay for them by credit card.
 
+customerInfo = {email, password, name, address, cc, purchase history}
+inventory = {name, price, stock, description}
+paymentSystem = {name, contactInfo, whichCCDoesItAccept, fees}
+salesReports = {revenue, itemsSold, periodTracking}
+webTrafficData = {countries, averageRevenue, visitorsData}
+
 - A platform for watching training videos (e.g. as part of a recertification process) and answering questions about them.
 
 - A recipe website; when users change the number of dinner guests, the site adjusts each recipes accordingly.
